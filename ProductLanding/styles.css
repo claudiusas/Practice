@@ -1,0 +1,43 @@
+img {
+  width: 60px;
+  height: 60px;
+}
+p {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+* {
+  list-style: none;
+}
+.header {
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  top: 10px;
+  left: 0;
+  right: 0;
+  z-index: 139312939129;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#nav-bar {
+  display: inline-block;
+}
+li {
+  display: inline;
+  margin-left: 10px;
+}
+.container {
+  display: inline-block;
+  width: 25%;
+  margin-right: 0;
+}
+input:valid {
+  border: 1px solid black;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
